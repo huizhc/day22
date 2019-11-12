@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var arr = [43, 54, 4, -4, 84, 100, 58, 27, 140];
+        // arr.sort((a, b) => b - a);
+        // console.log(arr);
+        //----------------------------text2
+        // var arr = ['apple', 'dog', 'cat', 'car', 'zoo', 'orange', 'airplane'];
+        // arr.sort();
+        // console.log(arr);
+        //----------------------------text3
+        // var arr = [[10, 14], [16, 60], [7, 44], [26, 35], [22, 63]];
+        // let arrkey = arr.map(function (val, i) {
+        //     return {0: val[0], index: i, key: val[1]};
+        // })
+        // // console.log(arrkey);
+        // arrkey.sort(function (a, b) {
+        //     console.log(+ (a.key < b.key) || + (a.key === b.key) - 1);
+        //     return + (a.key < b.key) || + (a.key === b.key) - 1;
+        // });
+        // console.log(arrkey);
+        // let result = arrkey.map(function (el) {
+        //     return arr[el.index];
+        // })
+        // console.log(result);
+        //-----------------------------text4
+        var arr = [
+            {
+                id: 1,
+                name: 'candy',
+                value: 40
+            }, {
+                id: 2,
+                name: 'Simon',
+                value: 50
+            }, {
+                id: 3,
+                name: 'Tony',
+                value: 45
+            }, {
+                id: 4,
+                name: 'Annie',
+                value: 60
+            }
+        ];
+        arr.sort(function (a ,b) {
+            return a.value - b.value;
+        })
+        console.log(arr);
+    </script>
+</body>
+</html>
